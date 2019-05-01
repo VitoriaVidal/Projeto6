@@ -1,0 +1,55 @@
+
+.n-center{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.n-widht-input{
+    min-width: 400px;
+}
+
+
+.form-control {
+    display: block;
+    width: 40%;
+    height: 40px;
+    padding: 6px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;    
+}
+
+
+
+.btn_cadastro{
+    display: block;
+    width: 20%;
+    height: 50px;
+    padding: 6px 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #10598F;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    align-content: center;
+}
+
+.btn_cadastro:focus{
+    outline-style: none;
+}
+
+/**  -------------------------  **/
+
+@media (min-width: 1200px) { 
+    .person-w-1200-fix {
+        width: 1200px;
+        margin: 0 auto;
+    } 
+ }
+
